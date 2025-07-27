@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  nav {
+    background-color: #145a32; /* deep green */
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: #f4d03f; /* yellow */
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    color: #145a32;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button {
+    background-color: #f4d03f;
+    color: #145a32;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #d4ac0d;
+  }
+  
+  /* Councilor Intro Section */
+  .councilor-intro {
+    background-color: #f4f6f6;
+    padding: 3rem 1rem;
+  }
+  
+  .intro-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    gap: 2rem;
+  }
+  
+  .councilor-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .intro-text {
+    flex: 1;
+  }
+  
+  .intro-text h2 {
+    color: #145a32;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-text p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #145a32;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  

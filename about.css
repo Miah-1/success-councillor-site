@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  nav {
+    background-color: #006400;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a.active,
+  .nav-links a:hover {
+    color: #ffff00; /* Yellow for hover and active */
+  }
+  
+  header {
+    background-color: #2E7D32; /* deep green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    color: #FBC02D; /* vibrant yellow */
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .project {
+    background-color: #ffffff;
+    border: 1px solid #C8E6C9; /* soft green border */
+    padding: 15px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    box-shadow: 0 0 10px rgba(46,125,50,0.2); /* subtle green glow */
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 2px solid #FBC02D; /* yellow border around image */
+  }
+  
+  p strong {
+    color: #2E7D32; /* green accent for labels */
+  }
+  

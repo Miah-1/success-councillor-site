@@ -1,0 +1,96 @@
+/* Colors: Green, Yellow, White */
+:root {
+    --green: #2e7d32;
+    --yellow: #f9a825;
+    --white: #ffffff;
+    --background: #e8f5e9;
+    --text-dark: #1b5e20;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  /* Navigation Bar */
+  .main-nav {
+    background-color: var(--green);
+    padding: 0.8rem 2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .main-nav ul li a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-nav ul li a:hover {
+    background-color: var(--yellow);
+    color: var(--green);
+  }
+  
+  .main-nav ul li a.active {
+    background-color: var(--yellow);
+    color: var(--green);
+    font-weight: 700;
+  }
+  
+  /* Main Container */
+  .services-container {
+    max-width: 800px;
+    margin: 2rem auto 4rem;
+    background-color: var(--white);
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(46, 125, 50, 0.3);
+    color: var(--text-dark);
+  }
+  
+  .services-container h1 {
+    color: var(--green);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid var(--yellow);
+    padding-bottom: 0.5rem;
+  }
+  
+  .services-container p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .service-item {
+    margin-bottom: 1.8rem;
+    border-left: 5px solid var(--yellow);
+    padding-left: 1rem;
+  }
+  
+  .service-item h2 {
+    color: var(--green);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
